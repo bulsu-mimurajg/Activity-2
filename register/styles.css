@@ -1,0 +1,69 @@
+body {
+  background-color: #a8a8a8;
+}
+
+.container {
+  width: 50%;
+  padding: 70px;
+  margin: 0 auto;
+  background-color: white;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.container img {
+  width: 80px;
+  height: 80px;
+}
+
+.container fieldset {
+  width: 100%;
+  padding: 20px 40px;
+  margin: 20px;
+  border-radius: 10px;
+}
+
+.container fieldset legend {
+  color: orangered;
+  text-align: right;
+}
+
+.container fieldset label {
+  display: block;
+  margin: 10px 0px;
+}
+
+.container fieldset label span.required {
+  color: red;
+}
+
+.container fieldset input {
+  width: 100%;
+  padding: 7px 5px;
+  border-radius: 3px;
+}
+
+.container fieldset .name-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.container button {
+  color: white;
+  background-color: #a8a8a8;
+  padding: 10px 120px;
+  border-radius: 5px;
+}
+
+.container a,
+.container a:visited,
+.container button:active {
+  color: silver;
+  text-decoration: none;
+}
+
+.container a:hover {
+  color: gray;
+}

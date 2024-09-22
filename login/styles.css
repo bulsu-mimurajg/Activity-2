@@ -1,0 +1,55 @@
+body {
+  background-color: #a8a8a8;
+}
+
+.container {
+  width: 15%;
+  margin: 0 auto;
+  padding: 30px 80px;
+  background-color: white;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.container img {
+  width: 80px;
+  height: 80px;
+}
+
+.container label {
+  display: block;
+  margin: 10px 0px;
+}
+
+.container label .required {
+  color: red;
+}
+
+.container input {
+  padding: 7px 5px;
+  border-radius: 3px;
+}
+
+.container button {
+  padding: 7px 60px;
+  margin-top: 40px;
+  border-radius: 5px;
+}
+
+.container hr {
+  margin-top: 30px;
+  margin-bottom: 0px;
+}
+
+.container a,
+a:visited,
+button:active {
+  color: gray;
+  text-decoration: none;
+}
+
+.container a:hover {
+  color: silver;
+}

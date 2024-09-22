@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Register</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="container">
+      <img src="../assets/register-icon.png" alt="Register Icon" />
+      <h1>Register</h1>
+      <!-- User Details -->
+      <fieldset>
+        <legend>User Details</legend>
+        <div class="name-container">
+          <div>
+            <label for="first-name"
+              >First Name <span class="required">*</span></label
+            >
+            <input type="text" name="first-name" id="first-name" />
+          </div>
+          <div>
+            <label for="middle-name">Middle Name</label>
+            <input type="text" name="middle-name" id="middle-name" />
+          </div>
+          <div>
+            <label for="last-name"
+              >Last Name <span class="required">*</span></label
+            >
+            <input type="text" name="last-name" id="last-name" />
+          </div>
+        </div>
+        <div>
+          <label for="email"
+            >Email Address <span class="required">*</span></label
+          >
+          <input type="email" name="email" id="email" />
+          <label for="contact"
+            >Contact No. <span class="required">*</span></label
+          >
+          <input type="number" name="contact" id="contact" />
+          <label for="student-id"
+            >Student ID <span class="required">*</span></label
+          >
+          <input type="number" name="contact" id="contact" />
+        </div>
+      </fieldset>
+
+      <!-- Login Details -->
+      <fieldset>
+        <legend>Login Details</legend>
+        <label for="username">Username <span class="required">*</span></label>
+        <input type="text" name="username" id="username" />
+        <label for="password">Password <span class="required">*</span></label>
+        <input type="password" name="password" id="password" />
+        <label for="confirm-password"
+          >Confirm Password <span class="required">*</span></label
+        >
+        <input type="password" name="confirm-password" id="confirm-password" />
+      </fieldset>
+      <button>Register</button>
+      <hr width="30%" />
+      <p>Already have an account? <a href="../login/login.html">Login</a></p>
+    </div>
+  </body>
+</html>
