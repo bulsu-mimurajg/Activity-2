@@ -1,5 +1,5 @@
 body {
-  background-color: #a8a8a8;
+  background-color: lightslategray;
 }
 
 .container {
@@ -23,33 +23,47 @@ body {
   margin: 10px 0px;
 }
 
-.container label .required {
+.container label::after {
+  content: " *";
   color: red;
 }
 
 .container input {
+  /* width: 90%; */
   padding: 7px 5px;
   border-radius: 3px;
 }
 
+.container #link {
+  display: block;
+}
+
 .container button {
-  padding: 7px 60px;
+  /* width: 100%; */
+  padding: 7px 70px;
   margin-top: 40px;
   border-radius: 5px;
 }
 
 .container hr {
+  width: 30%;
   margin-top: 30px;
   margin-bottom: 0px;
 }
 
-.container a,
-a:visited,
-button:active {
-  color: gray;
-  text-decoration: none;
+.container p {
+  display: inline;
+  font-size: small;
+  white-space: nowrap;
 }
 
-.container a:hover {
-  color: silver;
+a,
+a:visited {
+  text-decoration: none;
+  color: magenta;
+}
+
+a:hover {
+  color: darkmagenta;
+  text-decoration: underline;
 }
