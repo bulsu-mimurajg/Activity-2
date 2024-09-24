@@ -1,9 +1,9 @@
 body {
-  background-color: #a8a8a8;
+  background-color: lightslategray;
 }
 
 .container {
-  width: 50%;
+  width: 30%;
   padding: 70px;
   margin: 0 auto;
   background-color: white;
@@ -36,7 +36,8 @@ body {
   margin: 10px 0px;
 }
 
-.container fieldset label span.required {
+.container fieldset label.required::after {
+  content: " *";
   color: red;
 }
 
@@ -52,19 +53,22 @@ body {
 }
 
 .container button {
-  color: white;
   background-color: #a8a8a8;
-  padding: 10px 120px;
+  padding: 10px 60px;
   border-radius: 5px;
 }
 
-.container a,
-.container a:visited,
-.container button:active {
-  color: silver;
-  text-decoration: none;
+.container button:hover {
+  background-color: aliceblue;
 }
 
-.container a:hover {
-  color: gray;
+a,
+a:visited {
+  text-decoration: none;
+  color: magenta;
+}
+
+a:hover {
+  color: darkmagenta;
+  text-decoration: underline;
 }
