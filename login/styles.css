@@ -45,6 +45,10 @@ body {
   border-radius: 5px;
 }
 
+.container button:hover {
+  background-color: aliceblue;
+}
+
 .container hr {
   width: 30%;
   margin-top: 30px;
